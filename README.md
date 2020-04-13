@@ -86,3 +86,11 @@ Set column widths:
 Other pandas and numpy functions:
 
 Lessons in the Introduction to Data Analysis section of Udacity's Data Analyst Nanodegree (DAND)
+
+
+
+### Appreciations
+1. Udacity
+2. Google
+3. GitHub
+4. xhlow
