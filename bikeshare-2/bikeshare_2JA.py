@@ -83,7 +83,7 @@ def get_filter_month():
             break
         else:
             continue
-    
+
     return month
 
 
@@ -123,8 +123,8 @@ def get_filters():
     """
     print_line('=')
     #print('\n  Hello! Let\'s explore some US bikeshare data!\n')
-    print('Hello! My name is John and I\'m your guide')
-    userName = input('Please tell me your name and let\'s explore some US bikeshare data!: ')
+    print('Hello! My name is Ayomide and I\'m your guide')
+    userName = input('Please tell me your name so we can explore the US bikeshare data!: ')
     print('\n Nice to meet you {}, I have data for Chicago, New York City, Washington please pick the corresponding figure of the city you will like to see below \n'.format(userName))
     # get user input for city (chicago, new york city, washington).
     #  HINT: Use a while loop to handle invalid inputs
@@ -196,7 +196,7 @@ def load_data(city, month, day):
     if month != 'all':
         # use the index of the MONTHS list to get the corresponding int
         month_i = MONTHS.index(month) + 1     # index() returns 0-based, so +1
-    
+
         # filter by month to create the new dataframe
         df = df[df.month == month_i]
         month = month.title()
@@ -305,7 +305,7 @@ def seconds_to_HMS_str(total_seconds):
     hours, minutes = divmod(minutes, 60)
     days, hours = divmod(hours, 24)
     weeks, days = divmod(days, 7)
-    
+
     day_hour_str = ''
     if weeks > 0:
         day_hour_str += '{} weeks, '.format(weeks)
@@ -416,7 +416,7 @@ def main():
         user_stats(df)
         display_raw_data(df)
 
-        restart = input('\n    Would you like to restart? (y or n):  ')
+        restart = input('\n    Would you like to start again? (y or n):  ')
         if restart.lower() != 'y':
             break
 
