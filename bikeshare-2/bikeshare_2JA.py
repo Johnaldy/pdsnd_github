@@ -124,7 +124,7 @@ def get_filters():
     print_line('=')
     #print('\n  Hello! Let\'s explore some US bikeshare data!\n')
     print('Hello! My name is Ayomide and I\'m your guide')
-    userName = input('Please tell me your name and let\'s explore some US bikeshare data!: ')
+    userName = input('Please tell me your name so we can explore the US bikeshare data!: ')
     print('\n Nice to meet you {}, I have data for Chicago, New York City, Washington please pick the corresponding figure of the city you will like to see below \n'.format(userName))
     # get user input for city (chicago, new york city, washington).
     #  HINT: Use a while loop to handle invalid inputs
